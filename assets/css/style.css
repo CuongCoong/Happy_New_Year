@@ -348,7 +348,7 @@ body {
 .number2023 {
 	position: absolute;
 	display: flex;
-	top: 63%;
+	top: 58%;
 	left: 50%;
 	align-items: center;
 	justify-content: center;
@@ -1898,6 +1898,25 @@ h2 {
 		transform: scale(1);
 	}
 }
+.right .content .firework {
+	width: 130px;
+	height: 35px;
+	background-color: rgb(219, 41, 41);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+.right .content .firework a {
+	font-style: italic;
+	text-decoration: none;
+	font-size: 18px;
+	cursor: pointer;
+	color: #ffffff;
+}
+.right .content .firework:hover a {
+	transform: scale(1.1);
+}
 /* 
 resposive */
 @media screen and (max-width: 1040px) {
@@ -2087,12 +2106,12 @@ resposive */
 	.box-lion_dance .lion_dance1 {
 		position: absolute;
 		right: 115px;
-		top: 520px;
+		top: 485px;
 	}
 	.box-lion_dance .lion_dance2 {
 		position: absolute;
 		left: 141px;
-		top: 545px;
+		top: 515px;
 	}
 	.box-flower .flower-img:nth-child(1) {
 		position: absolute;
